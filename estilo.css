@@ -53,11 +53,36 @@ h3{
   padding: 0.5px;
   border-radius: 5px;
 }
-#gallery div{
+#gallery > div{
   width: 100%;
 }
 img{
   width: 100%;
+  border: solid darkcyan 1px;
+  border-radius: 5px;
+}
+.fondogris{
+  background-color:rgba(223, 220, 219, 0.529);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+th {
+  width: 300px;
+}
+th, td {
+  border: none; /* Esto elimina los bordes de las celdas */
+  padding: 8px; /* Añade algún espacio para mejorar la apariencia */
+  text-align: left;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  border: solid rgba(223, 220, 219, 0.529) 2px;
+}
+.bordeverde{
   border: solid darkcyan 1px;
   border-radius: 5px;
 }
